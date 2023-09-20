@@ -100,3 +100,22 @@ hr {
     width: 50%;
   }
 }
+/* Styles for smartphones (up to 767px wide) */
+@media (max-width: 767px) {
+  /* Add your smartphone-specific styles here */
+  
+  /* For example, you can change font sizes, margins, or layout */
+  body {
+    font-size: 16px;
+  }
+  
+  .header {
+    padding: 10px;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
